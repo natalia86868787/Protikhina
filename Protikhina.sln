@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protikhina", "Protikhina\Protikhina.csproj", "{5BF0961A-68E0-4FC4-B9BE-BC77BDF432F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C22F07DD-D82B-4134-897D-42F7A5347011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BF0961A-68E0-4FC4-B9BE-BC77BDF432F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF0961A-68E0-4FC4-B9BE-BC77BDF432F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF0961A-68E0-4FC4-B9BE-BC77BDF432F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF0961A-68E0-4FC4-B9BE-BC77BDF432F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28499346-A16D-48C4-BF62-8311A0DA3AC0}
+	EndGlobalSection
+EndGlobal
