@@ -13,7 +13,7 @@
         </LinearGradientBrush>
     </Window.Background>
     <Grid>
-        <Button Content="ДОБАВИТЬ" 
+        <Button Content="хай" 
                 HorizontalAlignment="Left" Height="44" Margin="322,380,0,0" VerticalAlignment="Top" Width="180"/>
         <TextBlock FontSize="13" HorizontalAlignment="Left" Margin="11,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-2.266,0.712" Height="36" Width="62"><Run Text="Имя"/><Run Language="ru-ru" Text=":"/></TextBlock>
         <TextBlock FontSize="13" HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"><Run Text="Фамилия"/><Run Language="ru-ru" Text=":"/></TextBlock>
