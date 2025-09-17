@@ -30,7 +30,7 @@
                   
         <Button Content="Добавить пользователя" HorizontalAlignment="Left" Height="31" Margin="58,378,0,0" VerticalAlignment="Top" Width="211"/>
         <Button Content="Разблокировать" HorizontalAlignment="Left" Height="31" Margin="305,378,0,0" VerticalAlignment="Top" Width="211"/>
-        <Button Content="Сохранять изменение" HorizontalAlignment="Left" Height="31" Margin="558,378,0,0" VerticalAlignment="Top" Width="211"/>
+        <Button Content="Сохранять изменения" HorizontalAlignment="Left" Height="31" Margin="558,378,0,0" VerticalAlignment="Top" Width="211"/>
         
 
     </Grid>
