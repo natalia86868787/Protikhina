@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Protikhina"
         mc:Ignorable="d"
-        Title="Панель админ истратора" Height="450" Width="800">
+        Title="Панель администратора" Height="450" Width="800">
     <Window.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
             <GradientStop Color="Aquamarine" Offset="0.0"/>
@@ -30,7 +30,7 @@
                   
         <Button Content="Добавить пользователя" HorizontalAlignment="Left" Height="31" Margin="58,378,0,0" VerticalAlignment="Top" Width="211"/>
         <Button Content="Разблокировать" HorizontalAlignment="Left" Height="31" Margin="305,378,0,0" VerticalAlignment="Top" Width="211"/>
-        <Button Content="Сохранять изменения" HorizontalAlignment="Left" Height="31" Margin="558,378,0,0" VerticalAlignment="Top" Width="211"/>
+        <Button Content="Сохранять изменение" HorizontalAlignment="Left" Height="31" Margin="558,378,0,0" VerticalAlignment="Top" Width="211"/>
         
 
     </Grid>

@@ -59,10 +59,21 @@ namespace Protikhina
             
         }
         private async void Save_Click(object sender, RoutedEventArgs e)
-            using (var context = new ProtikhinaLDEntities())
+            using (var context = private new ProtikhinaLDEntities())
         ) 
     {
-foreach (var user in Users.ItemsSource as In)
+foreach (var user in Users.ItemsSource as Inumerab<Users>)
+        {
+        var existingUser = await context.Users.FindAsync(user.id);
+    #if (existingUser != null)
+    {
+    existingUser.lastname = user.lastname;
+      existingUser.firstname = user.firstname;
+        existingUser.role = user.role;
+          existingUser.username = user.username;
+            existingUser.blocked = user.blocked;
+            }
+
     }
     
 }

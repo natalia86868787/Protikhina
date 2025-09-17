@@ -23,5 +23,7 @@ namespace Protikhina
         public Nullable<bool> blocked { get; set; }
         public Nullable<bool> IsFirstLogin { get; set; }
         public Nullable<System.DateTime> LastLoginDate { get; set; }
+        public int FailedLoginAttempts { get; set; }
+        public string email { get; set; }
     }
 }
