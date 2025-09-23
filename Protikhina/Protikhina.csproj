@@ -65,6 +65,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Admin.cs" />
+    <Compile Include="capcha.xaml.cs">
+      <DependentUpon>capcha.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ChangePassword.xaml.cs">
       <DependentUpon>ChangePassword.xaml</DependentUpon>
     </Compile>
@@ -110,6 +113,10 @@
     <Compile Include="Window2.xaml.cs">
       <DependentUpon>Window2.xaml</DependentUpon>
     </Compile>
+    <Page Include="capcha.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ChangePassword.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
